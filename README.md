@@ -1,27 +1,25 @@
 # 3D Print Gallery
 
-A modern web application for showcasing 3D printed projects. Built with Next.js, TypeScript, and Tailwind CSS.
+A showcase of 3D printing projects built with Next.js and TypeScript.
 
 ## Features
 
 - Responsive grid layout for project showcase
 - Individual project pages with detailed information
-- Modern UI with smooth animations
-- Mobile-friendly design
+- Image galleries with Framer Motion animations
+- YouTube video integration
+- Dark mode design
 
-## Getting Started
+## Development
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+npm run dev
+```
 
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
+## Deployment
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+This site is automatically deployed to GitHub Pages using GitHub Actions.
 
 ## Project Structure
 
