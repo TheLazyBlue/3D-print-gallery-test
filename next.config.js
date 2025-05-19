@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
+  assetPrefix: '/3D-print-gallery-test/',
 }
 
 module.exports = nextConfig 
