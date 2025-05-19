@@ -7,6 +7,7 @@ const nextConfig = {
   },
   trailingSlash: true,
   assetPrefix: '/3D-print-gallery-test/',
+  distDir: 'out',
 }
 
 module.exports = nextConfig 
