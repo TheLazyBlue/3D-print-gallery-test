@@ -22,6 +22,12 @@ const projects = {
   }
 }
 
+export function generateStaticParams() {
+  return [
+    { id: 'project1' }
+  ]
+}
+
 export default function ProjectPage({ params }: { params: { id: string } }) {
   const project = projects[params.id as keyof typeof projects]
 
